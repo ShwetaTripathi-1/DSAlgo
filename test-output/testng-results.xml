@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="21" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-27T15:02:20 CDT" name="Suite" finished-at="2022-06-27T15:03:48 CDT" duration-ms="87302">
+    <groups>
+    </groups>
+    <test started-at="2022-06-27T15:02:20 CDT" name="Test" finished-at="2022-06-27T15:03:48 CDT" duration-ms="87302">
+      <class name="com.DSalgo.testCases.TC_ArrayTest_006">
+        <test-method signature="ArrayTest()[pri:0, instance:com.DSalgo.testCases.TC_ArrayTest_006@7bd4937b]" started-at="2022-06-27T15:03:03 CDT" name="ArrayTest" finished-at="2022-06-27T15:03:44 CDT" duration-ms="40587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArrayTest -->
+      </class> <!-- com.DSalgo.testCases.TC_ArrayTest_006 -->
+      <class name="com.DSalgo.testCases.TC_RegisterTest_003">
+        <test-method signature="RegisterTest()[pri:0, instance:com.DSalgo.testCases.TC_RegisterTest_003@25fb8912]" started-at="2022-06-27T15:02:33 CDT" name="RegisterTest" finished-at="2022-06-27T15:02:40 CDT" duration-ms="7194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+      </class> <!-- com.DSalgo.testCases.TC_RegisterTest_003 -->
+      <class name="com.DSalgo.testCases.TC_LoginDDT_002">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.DSalgo.testCases.TC_LoginDDT_002@7c24b813]" started-at="2022-06-27T15:02:42 CDT" name="loginDDT" data-provider="LoginData" finished-at="2022-06-27T15:02:43 CDT" duration-ms="858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shweta.tripathi.mtech@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwe456yu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.DSalgo.testCases.TC_LoginDDT_002@7c24b813]" started-at="2022-06-27T15:02:43 CDT" name="loginDDT" data-provider="LoginData" finished-at="2022-06-27T15:02:44 CDT" duration-ms="1099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shweta.anku@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k-.hu8EVhsTLnw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.DSalgo.testCases.TC_LoginDDT_002@7c24b813]" started-at="2022-06-27T15:02:44 CDT" name="loginDDT" data-provider="LoginData" finished-at="2022-06-27T15:02:45 CDT" duration-ms="1234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rte2345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.DSalgo.testCases.TC_LoginDDT_002@7c24b813]" started-at="2022-06-27T15:02:45 CDT" name="loginDDT" data-provider="LoginData" finished-at="2022-06-27T15:02:46 CDT" duration-ms="1259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shweta.tripathi.mtech@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k-.hu8EVFhsTLnw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+      </class> <!-- com.DSalgo.testCases.TC_LoginDDT_002 -->
+      <class name="com.DSalgo.testCases.TC_DataStructureTest_005">
+        <test-method signature="DSIntroTest()[pri:0, instance:com.DSalgo.testCases.TC_DataStructureTest_005@2c35e847]" started-at="2022-06-27T15:02:46 CDT" name="DSIntroTest" finished-at="2022-06-27T15:03:03 CDT" duration-ms="16979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DSIntroTest -->
+      </class> <!-- com.DSalgo.testCases.TC_DataStructureTest_005 -->
+      <class name="com.DSalgo.testCases.TC_GetStartedTest">
+        <test-method signature="getStartedTest()[pri:0, instance:com.DSalgo.testCases.TC_GetStartedTest@4fb3ee4e]" started-at="2022-06-27T15:02:31 CDT" name="getStartedTest" finished-at="2022-06-27T15:02:32 CDT" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedTest -->
+      </class> <!-- com.DSalgo.testCases.TC_GetStartedTest -->
+      <class name="com.DSalgo.testCases.BaseClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DSalgo.testCases.BaseClass@f5acb9d]" started-at="2022-06-27T15:02:21 CDT" name="setup" finished-at="2022-06-27T15:02:31 CDT" duration-ms="9291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DSalgo.testCases.BaseClass@f5acb9d]" started-at="2022-06-27T15:03:44 CDT" name="tearDown" finished-at="2022-06-27T15:03:48 CDT" duration-ms="3565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DSalgo.testCases.BaseClass -->
+      <class name="com.DSalgo.testCases.TC_HomePageTest_004">
+        <test-method signature="HomePageTest()[pri:0, instance:com.DSalgo.testCases.TC_HomePageTest_004@5d7148e2]" started-at="2022-06-27T15:02:32 CDT" name="HomePageTest" finished-at="2022-06-27T15:02:33 CDT" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+      </class> <!-- com.DSalgo.testCases.TC_HomePageTest_004 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

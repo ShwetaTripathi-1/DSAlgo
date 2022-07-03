@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"> 
+<listeners>
+<listener class-name="com.DSalgo.Util.Reporting"/> </listeners>
+<test thread-count="5" name="Test">
+  <parameter name="brower" value="chrome"></parameter>
+    <classes>
+    <class name="com.DSalgo.testCases.BaseClass"/>
+   <class name="com.DSalgo.testCases.TC_GetStartedTest"/>
+   <class name="com.DSalgo.testCases.TC_HomePageTest_004"/>
+    <class name="com.DSalgo.testCases.TC_RegisterTest_003"/>
+ <!--  <class name="com.DSalgo.testCases.TC_LoginTest_001"/>-->
+ <class name="com.DSalgo.testCases.TC_LoginDDT_002"/>
+  <class name="com.DSalgo.testCases.TC_DataStructureTest_005"/>
+     <class name="com.DSalgo.testCases.TC_ArrayTest_006"/>
+    
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
